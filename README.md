@@ -22,10 +22,26 @@
     ```
 
 2. Install the required dependencies:
+   ```sh
+    apt install npm
+    ```
+   
+   ```sh
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+    ```
+   ```sh
+    source ~/.bashrc
+    ```
+   ```sh
+    nvm install 18
+    ```
+    ```sh
+    nvm use 18
+    ```
     ```sh
     npm install
     ```
-3. paste proxy in `proxy.txt`:
+4. paste proxy in `proxy.txt`:
 -  format `http://username:password@ip:port` or `socks5://username:password@ip:port`
     ```sh
     nano proxy.txt
